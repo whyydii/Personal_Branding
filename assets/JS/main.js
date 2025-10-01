@@ -1296,22 +1296,9 @@ function isElementInViewport(el) {
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Portfolio website loaded successfully!');
     
-    // Initialize any additional features here
-    // You can add more initialization code as needed
 });
 
-// =============== EXPORT FUNCTIONS (IF USING MODULES) ===============
-// Uncomment if using ES6 modules
-/*
-export {
-    myMenuFunction,
-    showProjectSection,
-    scrollToSection,
-    showNotification,
-    toggleDarkMode,
-    trackEvent
-};
-*/
+
 window.addEventListener('error', function(e) {
     console.error('JavaScript Error:', e.error);
     console.error('Error occurred in:', e.filename, 'at line:', e.lineno);
