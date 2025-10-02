@@ -61,7 +61,7 @@ document.addEventListener('mousemove', (e) => {
 document.addEventListener('DOMContentLoaded', function() {
     if (typeof Typed !== 'undefined') {
         var typingEffect = new Typed(".typedText", {
-            strings: ["Graphic Designer", "Photographer", "Videographer", "Freelancer"],
+            strings: ["Graphic Designer", "Photographer", "Videographer",],
             loop: true,
             typeSpeed: 100,
             backSpeed: 80,
